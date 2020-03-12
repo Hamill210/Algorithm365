@@ -1,7 +1,5 @@
 package com.hamill210.algorithm.march;
 
-import com.sun.javafx.css.CalculatedValue;
-
 import java.util.Calendar;
 import java.util.Locale;
 
@@ -22,7 +20,7 @@ import java.util.Locale;
  * 같은 날짜는 주어지지 않습니다.)
  */
 
-public class SumOfNumbers {
+public class TwoThousandSixteen {
 
     public String getDayName(int month, int day) {
         Calendar cal = new Calendar.Builder().setCalendarType("iso8601")
@@ -78,7 +76,7 @@ public class SumOfNumbers {
     }
 
     public static void main(String[] args) {
-        SumOfNumbers son = new SumOfNumbers();
+        TwoThousandSixteen son = new TwoThousandSixteen();
         int a = 5;
         int b = 24;
         int c = 2;
